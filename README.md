@@ -28,7 +28,7 @@
 
 ## :dart: About ##
 
-hostel village website made with HTML, CSS and Javascript. :hammer:under construction:hammer:
+hostel village website made with HTML, CSS and Javascript. 
 
 ## :sparkles: Features ##
 
