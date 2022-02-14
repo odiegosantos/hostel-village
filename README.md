@@ -15,13 +15,7 @@
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{odiegosantos}}/calido?color=56BEB8" /> -->
 </p>
 
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  Hostel Village 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
+![bg-hostel-village](https://user-images.githubusercontent.com/87211192/153864317-5680cabd-925e-4c59-a39b-9971e2994896.png)
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -39,8 +33,8 @@ hostel village website made with HTML, CSS and Javascript. :hammer:under constru
 ## :sparkles: Features ##
 
 :heavy_check_mark: Feature 1 \
-:x: Make features \
-:x: Deploy
+:heavy_check_mark: Make features \
+:heavy_check_mark: Finished Project
 
 ## :rocket: Technologies ##
 
