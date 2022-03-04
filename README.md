@@ -43,6 +43,7 @@ The following tools were used in this project:
 - [HTML](https://www.w3.org/standards/webdesign/htmlcss)
 - [CSS](https://www.w3.org/standards/webdesign/htmlcss)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [bootstrap](https://getbootstrap.com/)
 
 ## :white_check_mark: Requirements ##
 
