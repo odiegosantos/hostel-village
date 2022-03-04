@@ -6,6 +6,9 @@
   <title>HOSTEL VILLAGE</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
@@ -88,8 +91,29 @@
     <h2 class="description">rooms</h2>
     <div class="rooms__container">
       <article class="room__item">
-        <div class="room__image">
-          <img src="images/img-1.jpg" alt="room image">
+        <div id="myCarousel" class="carousel slide">
+          <div class="carousel-indicators">
+            <button data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+            <button data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+          </div>
+          <button class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/img1.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img2.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/bath1.jpg" alt="">
+            </div>
+          </div>
         </div>
         <div class="room__text">
           <h3>Luxury Rooms</h3>
@@ -109,13 +133,34 @@
           <p class="rate">
             <span>R$300.00 </span> Day
           </p>
-          <button type="button" class="btn">book now</button>
         </div>
+        <a href="#book" class="btnBook">book now</a>
       </article>
 
       <article class="room__item">
-        <div class="room__image">
-          <img src="images/img-2.jpg" alt="room image">
+        <div id="myCarousel2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#myCarousel2" data-bs-slide-to="1"></button>
+            <button data-bs-target="#myCarousel2" data-bs-slide-to="2"></button>
+          </div>
+          <button class="carousel-control-prev" data-bs-target="#myCarousel2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#myCarousel2" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/img3.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img4.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/bath2.jpg" alt="">
+            </div>
+          </div>
         </div>
         <div class="room__text">
           <h3>Luxury Rooms</h3>
@@ -135,13 +180,34 @@
           <p class="rate">
             <span>R$320.00 </span> Day
           </p>
-          <button type="button" class="btn">book now</button>
         </div>
+        <a href="#book" class="btnBook">book now</a>
       </article>
 
       <article class="room__item">
-        <div class="room__image">
-          <img src="images/img-3.jpg" alt="room image">
+        <div id="myCarousel3" class="carousel slide">
+          <div class="carousel-indicators">
+            <button data-bs-target="#myCarousel3" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#myCarousel3" data-bs-slide-to="1"></button>
+            <button data-bs-target="#myCarousel3" data-bs-slide-to="2"></button>
+          </div>
+          <button class="carousel-control-prev" data-bs-target="#myCarousel3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" data-bs-target="#myCarousel3" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/img5.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img6.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/bath3.jpg" alt="">
+            </div>
+          </div>
         </div>
         <div class="room__text">
           <h3>Luxury Rooms</h3>
@@ -161,13 +227,41 @@
           <p class="rate">
             <span>R$330.00 </span> Day
           </p>
-          <button type="button" class="btn">book now</button>
         </div>
+        <a href="#book" class="btnBook">book now</a>
       </article>
 
       <article class="room__item">
-        <div class="room__image">
-          <img src="images/img-4.jpg" alt="room image">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/img7.jpg"alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/img8.jpg"alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/bath4.jpg" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
         <div class="room__text">
           <h3>Luxury Rooms</h3>
@@ -187,8 +281,8 @@
           <p class="rate">
             <span> R$350.00 </span> Day
           </p>
-          <button type="button" class="btn">book now</button>
         </div>
+        <a href="#book" class="btnBook">book now</a>
       </article>
     </div>
   </section>
@@ -269,6 +363,7 @@
     </div>
   </footer>
   <script src="js/script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
